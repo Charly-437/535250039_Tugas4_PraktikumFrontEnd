@@ -44,9 +44,9 @@ Pastikan Node.js dan npm sudah terpasang.
    ```text
    http://localhost:3000
    ```
-Terima kasih sudah mengunjungi repositori ini :)
 Untuk memeriksa apakah project dapat dibangun untuk produksi, jalankan:
 
 ```bash
 npm run build
 ```
+Terima kasih sudah mengunjungi repositori ini :)
