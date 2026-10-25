@@ -20,7 +20,7 @@ Dorayemon Café merupakan website company profile yang bertujuan memperkenalkan 
 - **TypeScript** — memberikan tipe data pada komponen dan data anggota tim.
 - **CSS** — mengatur warna, tipografi, layout, komponen, dan tampilan responsif.
 - **Next.js App Router** — mengatur halaman berdasarkan struktur folder di dalam `src/app/`.
-- **Next.js Link** — menangani navigasi internal ant halaman.
+- **Next.js Link** — menangani navigasi internal antar halaman.
 - **Next.js Image** — menampilkan gambar pada halaman website.
 
 ## Cara Menjalankan Project
@@ -44,9 +44,9 @@ Pastikan Node.js dan npm sudah terpasang.
    ```text
    http://localhost:3000
    ```
-
 Untuk memeriksa apakah project dapat dibangun untuk produksi, jalankan:
 
 ```bash
 npm run build
 ```
+Terima kasih sudah mengunjungi repositori ini :)
