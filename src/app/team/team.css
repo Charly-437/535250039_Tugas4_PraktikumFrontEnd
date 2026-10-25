@@ -1,0 +1,79 @@
+/* HOME: TEAM PREVIEW */
+
+.team-preview {
+  background: var(--light-cyan);
+}
+
+.character-grid {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 28px;
+  max-width: 850px;
+  margin: 42px auto 0;
+}
+
+.character-card {
+  width: calc(50% - 14px);
+  max-width: 400px;
+  min-width: 0;
+  overflow: hidden;
+  border: 1px solid var(--light-cyan);
+  border-radius: 16px;
+  background: var(--white);
+  text-align: center;
+  box-shadow: 0 8px 24px rgba(3, 4, 94, 0.08);
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.character-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 14px 30px rgba(3, 4, 94, 0.13);
+}
+
+.character-image {
+  height: 280px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--frosted-blue);
+}
+
+.character-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.character-info {
+  padding: 24px 18px 28px;
+}
+
+.character-info h3 {
+  margin: 0 0 5px;
+  color: var(--deep-twilight);
+  font-size: 24px;
+}
+
+.character-info p {
+  margin: 0 0 18px;
+  color: var(--muted-color);
+  font-size: 15px;
+}
+
+.character-link {
+  color: var(--bright-teal-blue);
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.character-link:hover {
+  color: var(--deep-twilight);
+}
+
+.team-button {
+  margin-top: 34px;
+}
