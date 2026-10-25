@@ -9,6 +9,7 @@ type TeamDetailProps = {
   }>;
 };
 
+// Menyediakan daftar slug anggota untuk pembuatan halaman detail secara statis
 export function generateStaticParams() {
   return teamMembers.map((member) => ({
     slug: member.slug,
@@ -18,12 +19,14 @@ export function generateStaticParams() {
 export default async function TeamDetailPage({
   params,
 }: TeamDetailProps) {
+  // Mengambil slug dari URL untuk menentukan anggota yang ditampilkan
   const { slug } = await params;
 
   const member = teamMembers.find(
     (item) => item.slug === slug
   );
 
+  // Menampilkan halaman 404 jika slug tidak cocok dengan data anggota
   if (!member) {
     notFound();
   }

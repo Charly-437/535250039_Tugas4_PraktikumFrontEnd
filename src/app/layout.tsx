@@ -21,8 +21,9 @@ export const metadata: Metadata = {
     "Kenali Dorayemon Café, kafe bertema Doraemon yang menghadirkan dorayaki, minuman, dan camilan dalam suasana penuh imajinasi.",
 };
 
+// Layout utama untuk menyatukan navbar dan footer pada seluruh halaman website
 export default function RootLayout({
-  children,
+  children, // isi halaman yang sedang dibuka
 }: Readonly<{
   children: ReactNode;
 }>) {

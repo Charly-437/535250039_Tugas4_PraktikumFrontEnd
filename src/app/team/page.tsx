@@ -17,6 +17,7 @@ export default function TeamPage() {
             kami dan peran mereka dalam mengembangkan café.
           </p>
 
+          {/* Menampilkan semua anggota menggunakan komponen TeamCard */}
           <div className="character-grid">
             {teamMembers.map((member) => (
               <TeamCard

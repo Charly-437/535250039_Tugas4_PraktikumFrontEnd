@@ -1,3 +1,4 @@
+// Menentukan struktur data yang harus dimiliki setiap anggota tim (contohnya nama rolenya apa dll)
 export type TeamMember = {
   slug: string;
   name: string;
@@ -7,6 +8,7 @@ export type TeamMember = {
   profile: string;
 };
 
+// Simpan data anggota tim yang digunakan pada halaman tim dan halaman detailnya
 export const teamMembers: TeamMember[] = [
   {
     slug: "doraemon",

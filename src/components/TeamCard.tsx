@@ -1,6 +1,8 @@
 import Image from "next/image";
 import Link from "next/link";
 
+// Props untuk mengisi data kartu anggota tim.
+// Description bersifat opsional agar kartu dapat digunakan pada home sama halaman tim
 type TeamCardProps = {
   name: string;
   role: string;
@@ -32,8 +34,10 @@ export default function TeamCard({
 
         <p>{role}</p>
 
+        {/* Deskripsi hanya ditampilkan jika diberikan melalui props. */}
         {description && <p>{description}</p>}
 
+        {/* Mengarahkan pengguna ke halaman detail anggota berdasarkan slug */}
         <Link
           href={`/team/${slug}`}
           className="character-link"

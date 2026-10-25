@@ -13,7 +13,9 @@ const navLinks = [
 ];
 
 export default function Navbar() {
+  // Mengambil URL halaman saat ini untuk menentukan navigasi aktif
   const pathname = usePathname();
+  // Menyimpan status buka/tutup menu navigasi di perangkat mobile
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
@@ -29,7 +31,7 @@ export default function Navbar() {
           <span className="brand-name">Dorayemon Café</span>
         </Link>
 
-        {/* Hamburger untuk tablet dan HP */}
+        {/* Tombol (hamburger) untuk tutup buka navigasi di layar kecil */}
         <button
           className="hamburger"
           type="button"
@@ -48,6 +50,7 @@ export default function Navbar() {
           aria-label="Navigasi utama"
         >
           {navLinks.map((link) => {
+            // Tentuin apakah tautan sesuai dengan halaman yang sedang dibuka
             const isActive =
               link.href === "/"
                 ? pathname === "/"
@@ -59,6 +62,7 @@ export default function Navbar() {
                 key={link.href}
                 href={link.href}
                 className={`nav-link ${isActive ? "active" : ""}`}
+                // Mengubah status menu agar hamburger bisa membuka dan menutup navigasi
                 onClick={() => setMenuOpen(false)}
               >
                 {link.label}

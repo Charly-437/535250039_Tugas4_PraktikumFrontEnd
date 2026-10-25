@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
+// Data seluruh menu beserta deskripsi dan lokasi gambarya
 const menuItems = [
   {
     name: "Dorayaki Keju",
@@ -62,6 +63,7 @@ export default function MenuPage() {
             Dorayemon Café.
           </p>
 
+          {/* Menampilkan setiap menu */}
           <div className="menu-grid">
             {menuItems.map((item) => (
               <article className="menu-card" key={item.name}>

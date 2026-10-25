@@ -3,6 +3,7 @@ import Link from "next/link";
 import TeamCard from "../components/TeamCard";
 import { teamMembers } from "../data/team";
 
+// Data menu yang ditampilkan sebagai pratinjau di halaman home
 const menuItems = [
   {
     name: "Dorayaki Original",
@@ -161,6 +162,7 @@ export default function Home() {
             sajian dan pelayanan terbaik bagi pelanggan.
           </p>
 
+          {/* Menampilkan dua anggota pertama sebagai pratinjau tim (doraemon dan nobita) */}
           <div className="character-grid">
             {teamMembers.slice(0, 2).map((member) => (
               <TeamCard
