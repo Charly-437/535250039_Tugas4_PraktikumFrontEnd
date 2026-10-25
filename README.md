@@ -1,36 +1,52 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Tugas 2 Front-End (Praktikum)
 
-## Getting Started
+Repositori ini dibuat untuk memenuhi tugas 4 mata kuliah Front-End Programming sesi Praktikum. Project ini berupa website company profile untuk **Dorayemon Café**, sebuah konsep kafe fiktif yang mengangkat tema Doraemon dan menyajikan berbagai pilihan dorayaki, makanan, minuman, serta camilan. Website ini dikembangkan menggunakan Next.js, React, TypeScript, dan CSS. Fokus pengerjaan meliputi pembuatan website multipage, penggunaan komponen yang dapat digunakan kembali, dynamic routing, navigasi antar halaman, serta tampilan responsif pada desktop, tablet, dan perangkat mobile.
 
-First, run the development server:
+## Identitas
+
+- **Nama:** Charly
+- **NIM:** 535250039
+- **Mata Kuliah:** Front-End Programming (Praktikum)
+- **Nama Project:** Dorayemon Café
+
+## Deskripsi Project
+
+Dorayemon Café merupakan website company profile yang bertujuan memperkenalkan identitas kafe, cerita dan konsep brand, pilihan menu, anggota tim, serta informasi kontak. Website dirancang dengan nuansa warna biru yang terinspirasi dari karakter Doraemon. Tampilan dibuat konsisten pada setiap halaman melalui penggunaan Navbar, Footer, kartu menu, dan kartu anggota tim yang dapat digunakan kembali. Project ini berfokus pada penyajian informasi dan profil perusahaan. Website tidak ditujukan sebagai aplikasi transaksi atau pemesanan makanan secara online.
+
+## Teknologi yang Digunakan
+
+- **Next.js** — framework React untuk membangun website multipage dan dynamic routing.
+- **React** — membangun antarmuka menggunakan komponen.
+- **TypeScript** — memberikan tipe data pada komponen dan data anggota tim.
+- **CSS** — mengatur warna, tipografi, layout, komponen, dan tampilan responsif.
+- **Next.js App Router** — mengatur halaman berdasarkan struktur folder di dalam `src/app/`.
+- **Next.js Link** — menangani navigasi internal ant halaman.
+- **Next.js Image** — menampilkan gambar pada halaman website.
+
+## Cara Menjalankan Project
+Pastikan Node.js dan npm sudah terpasang.
+
+1. Buka terminal pada folder project.
+2. Instal dependensi:
+
+   ```bash
+   npm install
+   ```
+
+3. Jalankan server pengembangan:
+
+   ```bash
+   npm run dev
+   ```
+
+4. Buka alamat berikut pada browser:
+
+   ```text
+   http://localhost:3000
+   ```
+
+Untuk memeriksa apakah project dapat dibangun untuk produksi, jalankan:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm run build
 ```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
