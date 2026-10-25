@@ -1,0 +1,118 @@
+/* HERO HOME */
+
+.hero {
+  min-height: 650px;
+  background-color: var(--deep-twilight);
+  background-image: url("/images/hero-characters.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero-overlay {
+  min-height: 650px;
+  padding: 70px 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(
+    rgba(3, 4, 94, 0.58),
+    rgba(3, 4, 94, 0.68)
+  );
+}
+
+.hero-content {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+  color: var(--white);
+}
+
+.hero-label {
+  display: inline-block;
+  margin: 0 0 18px;
+  padding: 7px 16px;
+  border: 1px solid rgba(202, 240, 248, 0.7);
+  border-radius: 30px;
+  color: var(--light-cyan);
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 3px;
+}
+
+.hero h1 {
+  margin: 0 auto 22px;
+  color: var(--white);
+  font-size: 54px;
+  line-height: 1.2;
+  letter-spacing: -1px;
+}
+
+.hero-description {
+  max-width: 740px;
+  margin: 0 auto;
+  color: var(--light-cyan);
+  font-size: 18px;
+  line-height: 1.8;
+}
+
+.hero-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 14px;
+  margin-top: 32px;
+}
+
+/* HOME: ABOUT PREVIEW */
+
+.about-preview {
+  background: var(--light-cyan);
+}
+
+.about-layout {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.about-image {
+  width: calc(50% - 20px);
+  overflow: hidden;
+  border-radius: 18px;
+  box-shadow: 0 12px 30px rgba(3, 4, 94, 0.12);
+}
+
+.about-image img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+}
+
+.about-content {
+  width: calc(50% - 20px);
+  text-align: center;
+}
+
+.about-content h2 {
+  margin: 0 auto 20px;
+  color: var(--deep-twilight);
+  font-size: 36px;
+  line-height: 1.3;
+}
+
+.about-content .section-description {
+  max-width: 520px;
+}
+
+.about-button {
+  margin-top: 28px;
+}
+
