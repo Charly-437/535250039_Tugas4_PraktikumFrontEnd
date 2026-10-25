@@ -1,5 +1,4 @@
 import Image from "next/image";
-import Link from "next/link";
 
 // Data seluruh menu beserta deskripsi dan lokasi gambarya
 const menuItems = [
@@ -83,13 +82,6 @@ export default function MenuPage() {
               </article>
             ))}
           </div>
-
-          <Link
-            href="/"
-            className="button button-primary menu-button"
-          >
-            Kembali ke Beranda
-          </Link>
         </div>
       </section>
     </main>
