@@ -1,6 +1,6 @@
-# Tugas 2 Front-End (Praktikum)
+# Tugas Front-End (Praktikum)
 
-Repositori ini dibuat untuk memenuhi tugas 4 mata kuliah Front-End Programming sesi Praktikum. Project ini berupa website company profile untuk **Dorayemon Café**, sebuah konsep kafe fiktif yang mengangkat tema Doraemon dan menyajikan berbagai pilihan dorayaki, makanan, minuman, serta camilan. Website ini dikembangkan menggunakan Next.js, React, TypeScript, dan CSS. Fokus pengerjaan meliputi pembuatan website multipage, penggunaan komponen yang dapat digunakan kembali, dynamic routing, navigasi antar halaman, serta tampilan responsif pada desktop, tablet, dan perangkat mobile.
+Repositori ini dibuat untuk memenuhi tugas mata kuliah Front-End Programming sesi Praktikum. Project ini berupa website company profile untuk **Dorayemon Café**, sebuah konsep kafe fiktif yang mengangkat tema Doraemon dan menyajikan berbagai pilihan dorayaki, makanan, minuman, serta camilan. Website ini dikembangkan menggunakan Next.js, React, TypeScript, dan CSS. Fokus pengerjaan meliputi pembuatan website multipage, penggunaan komponen yang dapat digunakan kembali, dynamic routing, navigasi antar halaman, serta tampilan responsif pada desktop, tablet, dan perangkat mobile.
 
 ## Identitas
 
